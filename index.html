@@ -1,0 +1,194 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101c30">
+  <meta name="description" content="Tuzano Capital Advisory connects founders and businesses with capital, strategic expertise and growth opportunities.">
+  <title>Tuzano Capital Advisory | Capital & Expertise</title>
+  <style>
+    :root {
+      --navy: #101c30;
+      --gold: #c5a66b;
+      --cream: #f7f5f0;
+      --ink: #202b3b;
+      --muted: #697486;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      color: var(--ink);
+      line-height: 1.7;
+    }
+    a { color: inherit; text-decoration: none; }
+    .wrap { width: min(1120px, 90%); margin: auto; }
+    header {
+      background: var(--navy); color: white;
+      border-bottom: 1px solid #344056;
+    }
+    nav {
+      min-height: 82px; display: flex; align-items: center;
+      justify-content: space-between; gap: 20px;
+    }
+    .brand { font-size: 23px; font-weight: 700; letter-spacing: 2px; }
+    .brand span { color: var(--gold); }
+    .navlinks { display: flex; gap: 24px; font-size: 14px; }
+    .hero {
+      background: var(--navy); color: white;
+      padding: 105px 0 115px;
+    }
+    .eyebrow {
+      color: var(--gold); text-transform: uppercase;
+      letter-spacing: 3px; font-size: 12px; font-weight: 700;
+    }
+    h1 {
+      font-size: clamp(38px, 6vw, 66px);
+      line-height: 1.12; max-width: 780px;
+      margin: 22px 0;
+    }
+    h1 span { color: var(--gold); }
+    .hero p { max-width: 650px; color: #d4dae4; font-size: 18px; }
+    .button {
+      display: inline-block; margin-top: 22px;
+      background: var(--gold); color: var(--navy);
+      padding: 13px 23px; border-radius: 3px;
+      font-weight: 700; font-size: 14px;
+    }
+    section { padding: 76px 0; }
+    .intro { background: var(--cream); }
+    h2 { color: var(--navy); font-size: clamp(28px, 4vw, 40px); line-height: 1.25; }
+    .lead { max-width: 780px; color: var(--muted); font-size: 17px; }
+    .grid {
+      display: grid; grid-template-columns: repeat(3, 1fr);
+      gap: 20px; margin-top: 35px;
+    }
+    .service {
+      padding: 27px; border: 1px solid #e5e4df;
+      border-radius: 5px; background: white;
+    }
+    .service .num { color: var(--gold); font-weight: 700; letter-spacing: 2px; }
+    h3 { color: var(--navy); font-size: 19px; }
+    .service p { color: var(--muted); font-size: 15px; }
+    .statement { background: white; }
+    .statement blockquote {
+      margin: 25px 0 0; padding-left: 22px;
+      border-left: 3px solid var(--gold);
+      color: var(--navy); font-size: 23px;
+    }
+    .contact { background: var(--cream); }
+    footer { background: var(--navy); color: #d4dae4; padding: 28px 0; font-size: 13px; }
+    footer .wrap { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+    @media (max-width: 700px) {
+      .navlinks { gap: 12px; font-size: 12px; }
+      .brand { font-size: 19px; }
+      nav { min-height: 72px; flex-wrap: wrap; padding: 15px 0; }
+      .grid { grid-template-columns: 1fr; }
+      .hero { padding: 75px 0; }
+      section { padding: 55px 0; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="wrap">
+      <a class="brand" href="#">TUZANO<span>.</span></a>
+      <div class="navlinks">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wrap">
+        <div class="eyebrow">Capital · Capability · Growth</div>
+        <h1>Where Founders Meet <span>Capital &amp; Expertise</span></h1>
+        <p>
+          Connecting promising businesses with suitable capital,
+          strategic insight and professional expertise to support
+          sustainable growth.
+        </p>
+        <a class="button" href="#contact">Start a Conversation &rarr;</a>
+      </div>
+    </section>
+
+    <section class="intro" id="about">
+      <div class="wrap">
+        <div class="eyebrow">Our Approach</div>
+        <h2>Beyond Capital. Towards Value Creation.</h2>
+        <p class="lead">
+          We believe successful business growth takes more than funding.
+          It requires the right strategy, sound financial planning,
+          professional guidance and trusted relationships. Tuzano aims
+          to bring these capabilities together for founders and investors.
+        </p>
+      </div>
+    </section>
+
+    <section id="services">
+      <div class="wrap">
+        <div class="eyebrow">What We Do</div>
+        <h2>Expertise That Moves Businesses Forward</h2>
+        <div class="grid">
+          <article class="service">
+            <div class="num">01 / CAPITAL</div>
+            <h3>Capital Facilitation</h3>
+            <p>Helping investment-ready businesses explore appropriate
+            equity, debt and strategic funding opportunities.</p>
+          </article>
+          <article class="service">
+            <div class="num">02 / ADVISORY</div>
+            <h3>Business &amp; Financial Advisory</h3>
+            <p>Supporting business planning, financial modelling,
+            investment readiness and strategic decision-making.</p>
+          </article>
+          <article class="service">
+            <div class="num">03 / EXPERTISE</div>
+            <h3>Growth &amp; Governance</h3>
+            <p>Connecting businesses with professional capabilities
+            in governance, financial oversight and business transformation.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="statement">
+      <div class="wrap">
+        <div class="eyebrow">Our Philosophy</div>
+        <h2>Built on Trust. Driven by Professionalism.</h2>
+        <blockquote>
+          Transparency, professionalism and value creation
+          guide every relationship we seek to build.
+        </blockquote>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="wrap">
+        <div class="eyebrow">Let's Connect</div>
+        <h2>Have a Business or Investment Opportunity?</h2>
+        <p class="lead">
+          We welcome conversations with founders, business owners
+          and potential strategic partners.
+        </p>
+        <a class="button" href="mailto:hello@tuzano.in">Contact Tuzano &rarr;</a>
+        <p style="font-size:13px;color:#697486">
+          Replace this contact email if your business email is different.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <span>&copy; 2026 Tuzano Capital Advisory LLP</span>
+      <span>tuzano.in · Capital &amp; Expertise</span>
+    </div>
+  </footer>
+</body>
+</html>
